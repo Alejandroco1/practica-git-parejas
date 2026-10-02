@@ -16,7 +16,9 @@
 
         if (numeroUsuario === NUMEROSECRETO) {
             alert("Acertaste el numero felicidades")
-        } else { alert("No acertaste el numero sigue intentando") }
+        } else if (numeroUsuario > NUMEROSECRETO) {
+            alert("El número secreto es más pequeño");
+        }
     </script>
 
 </body>
